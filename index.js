@@ -178,7 +178,7 @@ async function run() {
   run().catch(console.dir);
 
 app.get('/', (req, res) => {
-  res.send('cudir vai mamun')
+  res.send('Welcome To E-Shopping Backend')
 })
 
 app.listen(port, () => {
